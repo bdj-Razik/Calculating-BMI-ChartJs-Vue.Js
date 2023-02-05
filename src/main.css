@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #010038;
+    color: #FFF;
+}
+
+.Roboto-300 {
+    font-weight: 300;
+
+}
+
+.Roboto-400 {
+    font-weight: 400;
+
+}
+
+.Roboto-700 {
+    font-weight: 700;
+
+}
+
+#circle {
+    width:  250px;
+    height: 250px;
+    background: #293A80;
+    color: #F39422;
+    -moz-border-radius: 49% 51% 50% 50% / 51% 50% 50% 49% ;
+    -webkit-border-radius: 49% 51% 50% 50% / 51% 50% 50% 49% ;
+    border-radius: 49% 51% 50% 50% / 51% 50% 50% 49% ;
+}
